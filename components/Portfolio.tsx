@@ -11,10 +11,7 @@ const Portfolio: React.FC = () => {
                             <h2>Lucius Meshach</h2>
                             <h3>I'm a Frontend Developer</h3>
                             <p>
-                                Lorem ipsum, dolor sit amet consectetur adipiscing elit. Dolores
-                                facilis tenetur corrupti itaque ipsum velit deleniti atque blanditiis
-                                modi asperiores a, laborum quisquam obcaecati maiores rem officiis
-                                praesentium.
+                                My name is Lucius Meshach, and I am a passionate Frontend Developer with a keen interest in creating dynamic and responsive web applications. I specialize in React, Next.js, and Tailwind CSS, and I love turning complex problems into elegant solutions.
                             </p>
                             <button className="download-cv">Download CV</button>
 
