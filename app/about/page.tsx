@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { FaSchool, FaQrcode, FaLock } from 'react-icons/fa';
+import { FaSchool, FaQrcode, FaLock,FaCar,FaUserGraduate,FaStore,FaChalkboardTeacher } from 'react-icons/fa';
 
 export default function About() {
   return (
@@ -79,6 +79,22 @@ export default function About() {
                   title: "Online Exam System",
                   desc: "AI-powered cheat detection with real-time monitoring and analytics.",
                 },
+                {
+                  icon: <FaCar className="text-blue-400 text-2xl" />,
+                  title: "Smart Parking System",
+                  desc: "Intelligent system for managing parking space reservations, real-time updates, and admin oversight.",
+                },
+                {
+                  icon: <FaUserGraduate className="text-purple-400 text-2xl" />,
+                  title: "EduTrack (Java Version)",
+                  desc: "Student management system with features like course enrollment, grade tracking, and multi-role access.",
+                },
+                {
+                  icon: <FaStore className="text-emerald-400 text-2xl" />,
+                  title: "OpenMarket Hub",
+                  desc: "Online marketplace with product listings, search functionality, and admin dashboard features.",
+                },
+
               ].map((proj, i) => (
                 <div
                   key={i}

@@ -94,7 +94,7 @@ export default function Contact() {
                 <FaLinkedin />
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/Chernetm"
                 target="_blank"
                 rel="noopener"
                 className="text-neutral-300 hover:text-yellow-400 transition"
