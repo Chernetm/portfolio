@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { FaSchool, FaQrcode, FaLock,FaCar,FaUserGraduate,FaStore,FaChalkboardTeacher } from 'react-icons/fa';
+import { FaSchool, FaQrcode, FaLock,FaCar,FaUserGraduate,FaStore} from 'react-icons/fa';
 
 export default function About() {
   return (
